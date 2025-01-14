@@ -1,0 +1,1 @@
+This error occurs when you try to access a component's state or props before it has mounted. This is common when using asynchronous operations like fetching data or setting up timers within a component's lifecycle methods.
