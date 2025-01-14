@@ -1,0 +1,1 @@
+This repository demonstrates a common React Native bug where a component attempts to access its state or props before the component has fully mounted.  The bug is caused by asynchronous operations within the componentDidMount lifecycle method. The solution utilizes the useEffect hook and ensures the state is accessed only after it has been initialized.
